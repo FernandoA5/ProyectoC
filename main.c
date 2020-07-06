@@ -52,14 +52,14 @@ void vMenu()
 		fflush(stdin);
 	}while(!strcmp(cLinea, EXIT)==0);
 	system("EXIT");
-}	//FIN DE LA FUNCIÓN vMenu
+}	//FIN DE LA FUNCIÃ“N vMenu
 //-----------------------------------------------
 void vSeparar(int n)
 {
 	int NumPalabras=iContarPalabras(n);
 	p=(palabras*)malloc(NumPalabras*(sizeof(palabras)));
 	vSepararInstrucciones(NumPalabras, n);
-}	//FIN DE LA FUNCIÓN vSeparar
+}	//FIN DE LA FUNCIÃ“N vSeparar
 //-----------------------------------------------
 void vSepararInstrucciones(int NumPalabras, int n){
 	char palabra[20], temp; int indice=0, i=0;
@@ -96,7 +96,7 @@ int iContarPalabras(int n)
 		}
 	}
 	return palabras;
-}	//FIN DE LA FUNCIÓN iContarPalabras
+}	//FIN DE LA FUNCIÃ“N iContarPalabras
 //-----------------------------------------------
 void vVaciarCadena(char aux[])
 {
